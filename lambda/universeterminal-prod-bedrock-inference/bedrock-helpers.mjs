@@ -9,7 +9,7 @@ export async function generateContent(prompt, temperature) {
   try {
     const response = await bedrock.send(
       new InvokeModelCommand({
-        modelId: "amazon.titan-text-lite-v1",
+        modelId: "amazon.nova-micro-v1:0",
         contentType: "application/json",
         accept: "application/json",
         body: JSON.stringify({
