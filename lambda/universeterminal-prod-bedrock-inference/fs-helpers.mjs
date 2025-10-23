@@ -151,7 +151,7 @@ export function createBaseUniverse(temperature) {
       return dir("/", [
         dir("universe-616", []),
         dir("universe-42", []),
-        dir("universe-??██", []),
+        dir("universe-?%$", []),
       ]);
     default:
     case 0.1:

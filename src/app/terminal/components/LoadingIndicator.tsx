@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function LoadingSpinner() {
+export default function LoadingIndicator() {
   const [currentChar, setCurrentChar] = useState(0);
   const chars = ["░", "▒", "▓", "█"];
 
